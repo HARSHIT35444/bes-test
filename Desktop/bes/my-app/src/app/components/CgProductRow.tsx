@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Card, CardHeader, CardContent } from "@/components/ui/card";
 
 // Define static sample products
 const sampleProducts = [

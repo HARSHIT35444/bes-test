@@ -38,11 +38,6 @@ const ACMotorForm = () => {
     fileInputRef.current?.click();
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission
-  };
-
   return (
     <Card className="w-full max-w-full mx-auto">
       <CardHeader>
@@ -200,8 +195,8 @@ const ACMotorForm = () => {
                   <SelectItem value="TEFC - SAFE AREA STANDARD">TEFC - SAFE AREA STANDARD</SelectItem>
                   <SelectItem value="FLAME PROOF - GAS GROUP IIA/IIB">FLAME PROOF - GAS GROUP IIA/IIB</SelectItem>
                   <SelectItem value="FLAME PROOF - GAS GROUP IIC">FLAME PROOF - GAS GROUP IIC</SelectItem>
-                  <SelectItem value="INCREASED SAFETY - Ex'e'">INCREASED SAFETY - Ex"e"</SelectItem>
-                  <SelectItem value="NON SPARKING - Ex'n'">NON SPARKING - Ex"n"</SelectItem>
+                  <SelectItem value="INCREASED SAFETY - Ex'e'">INCREASED SAFETY - Ex&quot;e&quot;</SelectItem>
+                  <SelectItem value="NON SPARKING - Ex'n'">NON SPARKING - Ex&quot;n&quot;</SelectItem>
                   <SelectItem value="other">Others</SelectItem>
                 </SelectContent>
               </Select>
